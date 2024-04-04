@@ -67,7 +67,7 @@ function App() {
       <div className=" bg-fuchsia-400 text-center text-3xl">
         <h1>MULTIPLICATION TABLE</h1>
       </div>
-      <div className="p-4 bg-fuchsia-400 flex gap-3 ">
+      <div className="p-4 bg-fuchsia-400 flex gap-3 w-full ">
         <form onSubmit={handleSubmit} className="mb-4">
           <input
             type="number"
